@@ -5,13 +5,16 @@
 
 using namespace std;
 
+typedef long long ll;
+typedef vector<int> vi;
 
-long long N;
+
+ll N;
 
 //g++ -std=c++11 -O2 -Wall
 
 
-int solve(long long N){
+int solve(auto x){
     
     return 0;
 }
@@ -24,6 +27,7 @@ int main()
     cin.tie(NULL);
     
     cin >> N;
+
     solve(N);
 
     return 0;

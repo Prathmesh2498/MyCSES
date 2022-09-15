@@ -8,6 +8,6 @@ if (Test-Path -Path a.exe){
 }
 
 
-g++ -std=c++11 -O2 -Wall $ProgramName -o a
+g++ -std=c++11 -O2 -Wall $PSScriptRoot\solutions\$ProgramName.cpp -o a
 
 echo "Compiled Successfully!"
