@@ -4,4 +4,9 @@ I have recently started solving CSES problem set. The goal is get good at proble
 compile.ps1 and newProb.ps1 are Windows Powershell utilities to compile and create problems because I am coding on Windows for some reason :P.
 template.cpp is read by newProb.ps1.
 
+Usage:
+
+ > .\compile.ps1 -ProgramName Name_of_file.cpp
+ > .\newProb.ps1 -ProgramName Name_of_file
+
 Feel free to use and/or modify the templates as required!
