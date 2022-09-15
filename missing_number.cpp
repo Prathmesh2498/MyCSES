@@ -17,6 +17,10 @@ int solve(long long N){
 }
 
 
+/*
+CRUX: Sum of integers 1....N = (N*(N+1)/2) 
+*/
+
 
 int main()
 {
@@ -27,13 +31,16 @@ int main()
 
     long long sum = 0;
     long long X;
-    for (long long i=0; i<N; i++){
+    for (long long i=0; i<N-1; i++){
         cin >> X;
         sum += X;
     }
 
-    return (N*(N-1))/2 - sum;
+    long long csum = (N*(N+1))/2; 
+
+    cout <<  csum - sum;
     
+    return 0;
     //solve(N);
 
 }
