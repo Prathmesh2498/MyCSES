@@ -7,9 +7,9 @@ Template.cpp is read by newProb.ps1.
 
 Usage:
 
- > .\compile.ps1 -ProgramName Name_of_file
+ > .\compile.ps1 -pn Name_of_file
  
- > .\newProb.ps1 -ProgramName Name_of_file
+ > .\newProb.ps1 -pn Name_of_file
 
 Feel free to use and/or modify the templates as required!
 
