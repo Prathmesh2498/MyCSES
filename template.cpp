@@ -9,12 +9,12 @@ typedef long long ll;
 typedef vector<int> vi;
 
 
-ll N;
+ll T;
 
 //g++ -std=c++11 -O2 -Wall
 
 
-int solve(auto x){
+int solve(ll x){
     
     return 0;
 }
@@ -26,9 +26,13 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     
-    cin >> N;
+    cin >> T;
 
-    solve(N);
+    while(T--){
+
+    }
+
+    
 
     return 0;
 }
