@@ -27,12 +27,10 @@ int main()
     cin.tie(NULL);
     
     cin >> T;
-
-    while(T--){
-
-    }
-
     
-
+    cout << 0 << endl;
+    for (ll i = 2 ; i <= T ; i++) {
+      cout << (i * i) * (i * i - 1) / 2 - (4 * (i - 2) * (i - 1)) << endl;
+    }
     return 0;
 }
