@@ -9,9 +9,9 @@ try {
    echo "Created new problem!"
 } catch {
    $error
-
+   $error.clear()
    "
-   ERROR! Did you pass the fine name correctly?
+   ERROR! Did you pass the file name correctly?
 
    Correct Usage => .\makeProb.ps1 -pn <file_name> (without extension .cpp!)
 
