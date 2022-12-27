@@ -25,21 +25,33 @@ int main()
 {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-
-    /* #ifndef FILE_TEST
+    
+    #ifndef FILE_TEST
         freopen("test_input.txt", "r", stdin);
  
         freopen("test_output.txt", "w", stdout);
 
-    #endif */
-    
+    #endif
+
     cin >> T;
-
+    ll x,y;
     while(T--){
-
+        cin >> x >> y;
+        
+        if (max(x, y) > 2 * min(x, y)) {
+            cout << "NO\n";
+            continue;
+        }
+    
+        if ((x + y) % 3 == 0) {
+            cout << "YES\n";
+        }
+        else {
+            cout << "NO\n";
+        }
     }
 
-    /* #ifndef DEBUG_FILE
+    #ifndef DEBUG_FILE
     
         ifstream infile("test_input.txt");
         ifstream my_output("output.txt");
@@ -75,9 +87,7 @@ int main()
         correct_ouput.close();
         diff.close();
 
-    #endif */
-
-    
+    #endif
 
     return 0;
 }
